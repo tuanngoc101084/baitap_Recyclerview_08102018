@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#EEEE"
+    android:paddingBottom="7dp"
+    android:paddingLeft="7dp"
+    android:paddingTop="7dp"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="#ffff"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageview_hinhanh"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/changkangkung"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:id="@+id/textTensanpham"
+                android:text="Ten san pham"
+                android:textColor="#050505"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="5dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:id="@+id/textMotasanpham"
+                android:text="Mo ta san pham"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#C7C7C9" />
+             <LinearLayout
+                 android:paddingTop="10dp"
+                 android:paddingBottom="45dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:padding="3dp"
+                     android:adjustViewBounds="true"
+                     android:src="@drawable/taggiamgia"
+                     android:layout_width="30dp"
+                     android:layout_height="match_parent">
+                 </ImageView>
+                 <TextView
+                     android:maxLines="1"
+                     android:ellipsize="end"
+                     android:id="@+id/textkhuyenmai"
+                     android:textColor="#050505"
+                     android:text="Giam gia 50%"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"/>
+             </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
